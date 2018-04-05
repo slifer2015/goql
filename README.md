@@ -20,7 +20,7 @@ go get -u github.com/fzerorubigd/goql/...
 A test command line is built in your GOBIN directory 
 
 ```
-goql --package="fmt" "select * from file"
+goql --package="fmt" "select * from files"
 goql --package="fmt" "select * from funcs"
 goql --package="fmt" "select * from consts"
 goql --package="fmt" "select * from vars"
